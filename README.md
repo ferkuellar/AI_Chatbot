@@ -62,8 +62,29 @@ Este archivo contiene las palabras del modelo en formato pickle. Representa el v
 3. Ejecuta el script de entrenamiento (opcional si deseas entrenar el modelo desde cero):
    ```bash
    python training.py
+4.Ejecuta el chatbot:
+   ```bash
+      python chatbot.py
 
+Ejemplo de Uso
+El chatbot puede responder a diversas consultas como saludos, información de planes, soporte técnico, entre otros. A continuación se presentan algunos ejemplos de interacciones posibles:
 
+Usuario: "Hello"
+
+Chatbot: "Hello! How can I help you today?"
+
+Usuario: "I want to change my plan"
+
+Chatbot: "I can help you with changing your plan. What plan would you like to switch to?"
+
+Usuario: "My internet is not working"
+
+Chatbot: "I'm sorry to hear that you're having issues. Please provide your account number and describe the problem."
+
+Contacto
+Si tienes alguna pregunta o deseas más información sobre este proyecto, puedes contactarme a través de kuellarfer@gmail.com.
+
+Este README proporciona una visión general del proyecto de chatbot conversacional, la estructura de los archivos, y cómo ejecutar el proyecto. Es un excelente complemento para tu portafolio, demostrando tus habilidades en desarrollo de chatbots y procesamiento de lenguaje natural.
 
 
 
