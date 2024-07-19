@@ -26,6 +26,7 @@ Este proyecto consiste en el desarrollo de un chatbot conversacional utilizando 
 ├── training.py
 └── words.pkl
 
+
 ## Descripción de los Archivos
 
 ### `chatbot.py`
@@ -59,15 +60,10 @@ Este archivo contiene las palabras del modelo en formato pickle. Representa el v
    ```bash
    pip install tensorflow keras numpy
 
-Ejecuta el script de entrenamiento (opcional si deseas entrenar el modelo desde cero):
+3.Ejecuta el script de entrenamiento (opcional si deseas entrenar el modelo desde cero):
+
+```bash
 python training.py
-
-
-
-
-
-
-
 
 
 
