@@ -1,5 +1,3 @@
-# AI_Chatbot
-
 # Proyecto de Chatbot Conversacional
 
 ## Descripción del Proyecto
@@ -18,6 +16,7 @@ Este proyecto consiste en el desarrollo de un chatbot conversacional utilizando 
 
 ## Estructura de Directorios
 
+```
 ├── chatbot.py
 ├── chatbot_model.h5
 ├── chatbot_model.keras
@@ -25,7 +24,7 @@ Este proyecto consiste en el desarrollo de un chatbot conversacional utilizando 
 ├── intents.json
 ├── training.py
 └── words.pkl
-
+```
 
 ## Descripción de los Archivos
 
@@ -57,34 +56,37 @@ Este archivo contiene las palabras del modelo en formato pickle. Representa el v
 
 1. Clona el repositorio del proyecto.
 2. Instala las dependencias necesarias:
-      ```bash
+   ```bash
    pip install tensorflow keras numpy
+   ```
 3. Ejecuta el script de entrenamiento (opcional si deseas entrenar el modelo desde cero):
    ```bash
    python training.py
-4.Ejecuta el chatbot:
+   ```
+4. Ejecuta el chatbot:
    ```bash
-      python chatbot.py
+   python chatbot.py
+   ```
 
-Ejemplo de Uso
+## Ejemplo de Uso
+
 El chatbot puede responder a diversas consultas como saludos, información de planes, soporte técnico, entre otros. A continuación se presentan algunos ejemplos de interacciones posibles:
 
-Usuario: "Hello"
+- Usuario: "Hello"
+- Chatbot: "Hello! How can I help you today?"
 
-Chatbot: "Hello! How can I help you today?"
+- Usuario: "I want to change my plan"
+- Chatbot: "I can help you with changing your plan. What plan would you like to switch to?"
 
-Usuario: "I want to change my plan"
+- Usuario: "My internet is not working"
+- Chatbot: "I'm sorry to hear that you're having issues. Please provide your account number and describe the problem."
 
-Chatbot: "I can help you with changing your plan. What plan would you like to switch to?"
+## Contacto
 
-Usuario: "My internet is not working"
+Si tienes alguna pregunta o deseas más información sobre este proyecto, puedes contactarme a través de [kuellarfer@gmail.com](mailto:kuellarfer@gmail.com).
 
-Chatbot: "I'm sorry to hear that you're having issues. Please provide your account number and describe the problem."
+---
 
-Contacto
-Si tienes alguna pregunta o deseas más información sobre este proyecto, puedes contactarme a través de kuellarfer@gmail.com.
-
-Este README proporciona una visión general del proyecto de chatbot conversacional, la estructura de los archivos, y cómo ejecutar el proyecto. Es un excelente complemento para tu portafolio, demostrando tus habilidades en desarrollo de chatbots y procesamiento de lenguaje natural.
-
+Este README proporciona una visión general del proyecto de chatbot conversacional, la estructura de los archivos, y cómo ejecutar el proyecto. 
 
 
