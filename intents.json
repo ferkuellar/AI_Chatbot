@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good afternoon"],
+      "responses": ["Hello! How can I help you today?", "Hi there! How can I assist you?", "Hey! What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Bye", "Take care"],
+      "responses": ["Goodbye! Have a great day!", "See you later! Take care!", "Bye! Feel free to reach out if you need anything else."]
+    },
+    {
+      "tag": "bill_inquiry",
+      "patterns": ["Can I see my bill?", "I want to check my bill", "Show my bill", "How much do I need to pay?", "What is my bill amount?"],
+      "responses": ["Sure, I can help with that. Please provide your account number.", "To check your bill, I need your account details."]
+    },
+    {
+      "tag": "balance_inquiry",
+      "patterns": ["How much balance do I have?", "Check my balance", "Show my balance", "What is my current balance?", "Available balance"],
+      "responses": ["I can help with that. Please provide your account number to check your balance.", "To check your balance, I need your account details."]
+    },
+    {
+      "tag": "recharge_balance",
+      "patterns": ["Recharge my balance", "I want to make a recharge", "Add balance", "Buy balance", "Make a recharge"],
+      "responses": ["I can help you recharge your balance. How much would you like to add?", "To make a recharge, please provide your account number and the amount."]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": ["I need technical support", "My internet is not working", "I have problems with my line", "I can't make calls", "Technical issues"],
+      "responses": ["I'm sorry to hear that you're having issues. Please provide your account number and describe the problem.", "For technical support, I need your account details and a description of the issue."]
+    },
+    {
+      "tag": "plan_change",
+      "patterns": ["I want to change my plan", "Change my plan", "Update my plan", "Modify my data plan", "I want a new plan"],
+      "responses": ["I can help you with changing your plan. What plan would you like to switch to?", "To change your plan, please provide your account number and the new plan details."]
+    },
+    {
+      "tag": "plan_information",
+      "patterns": ["I want information about the plans", "What plans are available?", "Show me data plans", "Available phone plans", "Information about plans"],
+      "responses": ["We have several plans available. Please visit our website or provide your account number for detailed information.", "To get information about our plans, I need your account details."]
+    }
+  ]
+}
