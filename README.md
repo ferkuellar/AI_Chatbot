@@ -57,11 +57,12 @@ Este archivo contiene las palabras del modelo en formato pickle. Representa el v
 
 1. Clona el repositorio del proyecto.
 2. Instala las dependencias necesarias:
-   ```bash
+      ```bash
    pip install tensorflow keras numpy
-3.Ejecuta el script de entrenamiento (opcional si deseas entrenar el modelo desde cero):
+3. Ejecuta el script de entrenamiento (opcional si deseas entrenar el modelo desde cero):
    ```bash
    python training.py
+
 
 
 
